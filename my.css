@@ -1,3 +1,17 @@
+html {
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    max-width: 1920px;
+}
+
+body {
+    text-align: center;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    background-color: #efefef;
+}
+
 ul .adress {
     list-style-image: url(img/pic.png); /* Путь к изображению маркера */
    }
@@ -9,4 +23,7 @@ ul .phone {
     color:#e3331f;
     font-size:28px;
     font-weight:bold;
+}
+.row {
+    margin: 0 auto;
 }
