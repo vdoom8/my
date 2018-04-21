@@ -1,0 +1,12 @@
+ul .adress {
+    list-style-image: url(img/pic.png); /* Путь к изображению маркера */
+   }
+
+ul .phone {
+    list-style-image: url(img/tel.png); /* Путь к изображению маркера */
+   }
+.price {
+    color:#e3331f;
+    font-size:28px;
+    font-weight:bold;
+}

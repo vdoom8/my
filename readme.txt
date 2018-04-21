@@ -1,0 +1,1 @@
+Заменить емеил в файлах send.php и choise.php

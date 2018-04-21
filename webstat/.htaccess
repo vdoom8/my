@@ -1,0 +1,7 @@
+AuthType Basic
+AuthName "/www/turcv.more-turov.com/webstat"
+AuthUserFile /var/www/moreturov/data/etc/327222623.passwd
+DirectoryIndex index.html
+<Limit GET POST>
+	require valid-user
+</Limit>
