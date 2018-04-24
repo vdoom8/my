@@ -14,6 +14,9 @@ body {
     max-width: 960px;
     margin: 0 auto;
 }
+.leedform {
+    background-image: url(img/blue_bg2.jpg);
+}
 ul .adress {
     list-style-image: url(img/pic.png); /* Путь к изображению маркера */
    }
