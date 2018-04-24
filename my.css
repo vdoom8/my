@@ -2,7 +2,6 @@ html {
     margin: 0 auto;
     padding: 0;
     position: relative;
-    max-width: 1920px;
 }
 
 body {
@@ -11,7 +10,10 @@ body {
     font-family: Arial, sans-serif;
     background-color: #efefef;
 }
-
+#hot_tours {
+    max-width: 960px;
+    margin: 0 auto;
+}
 ul .adress {
     list-style-image: url(img/pic.png); /* Путь к изображению маркера */
    }
@@ -30,7 +32,7 @@ ul .phone {
 .card {
     margin-top: 25px;
 }
-
+.yellow_style { -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; background-color: #ffcc03; -webkit-box-shadow: 0 4px 5px rgba(129, 82, 63, .42), inset 0 0 0 1px #ffee31; -moz-box-shadow: 0 4px 5px rgba(129, 82, 63, .42), inset 0 0 0 1px #ffee31; box-shadow: 0 4px 5px rgba(129, 82, 63, .42), inset 0 0 0 1px #ffee31; border: solid 1px #fc930b; background-image: -webkit-linear-gradient(bottom, #ffa500, rgba(255, 165, 0, 0)); background-image: -moz-linear-gradient(bottom, #ffa500, rgba(255, 165, 0, 0)); background-image: -o-linear-gradient(bottom, #ffa500, rgba(255, 165, 0, 0)); background-image: linear-gradient(to top, #ffa500, rgba(255, 165, 0, 0)); color: #483800; text-shadow: 0 1px rgba(255, 255, 255, .75); font-weight: 700; font-family: exo; }
 /*These styles contain basic styles for fomatting along with our animation css*/
 
 body {
