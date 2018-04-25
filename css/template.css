@@ -206,14 +206,6 @@
 .where_wrap { height: 460px; }
 .where { }
 .where > img { margin-left: 240px; margin-top: 30px; float: left; }
-.contacts { width: 250px; float: left; background: #fff; padding: 20px; margin-top: 10px; }
-.comp_name_cont { font-weight: 700; padding-bottom: 10px; }
-.comp_name_cont > p { }
-.comp_adr_cont { padding-bottom: 10px; }
-.comp_adr_cont > p { }
-.comp_adr_cont > p > br { }
-.comp_phone_cont { }
-.comp_phone_cont > p { }
 .footer_wrap { }
 .footer { font-size: 14px; padding: 20px 0px; }
 .footer_left { float: left; }
