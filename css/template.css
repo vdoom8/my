@@ -287,3 +287,7 @@
 .card {
     margin-top: 25px;
 }
+.reviews {
+    max-width: 960px;
+    margin: 0 auto;
+}
