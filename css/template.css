@@ -291,3 +291,16 @@
     max-width: 960px;
     margin: 0 auto;
 }
+.leddform_heading {
+    color: white;
+}
+.leddform_desc {
+    color: white;
+}
+
+
+@media all and (max-width:767px) {
+	.arrow-aim { 
+        display: none;
+     }
+}
