@@ -63,11 +63,9 @@
 .yellow_style { -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; background-color: #ffcc03; -webkit-box-shadow: 0 4px 5px rgba(129, 82, 63, .42), inset 0 0 0 1px #ffee31; -moz-box-shadow: 0 4px 5px rgba(129, 82, 63, .42), inset 0 0 0 1px #ffee31; box-shadow: 0 4px 5px rgba(129, 82, 63, .42), inset 0 0 0 1px #ffee31; border: solid 1px #fc930b; background-image: -webkit-linear-gradient(bottom, #ffa500, rgba(255, 165, 0, 0)); background-image: -moz-linear-gradient(bottom, #ffa500, rgba(255, 165, 0, 0)); background-image: -o-linear-gradient(bottom, #ffa500, rgba(255, 165, 0, 0)); background-image: linear-gradient(to top, #ffa500, rgba(255, 165, 0, 0)); color: #483800; text-shadow: 0 1px rgba(255, 255, 255, .75); font-weight: 700; font-family: exo; }
 .size_1 { font-size: 25px; width: 260px; height: 60px; margin-top: 5px; cursor: pointer; }
 .size_1 > span { }
-.eggs_wrap { padding-bottom: 40px; }
-.eggs { overflow: inherit; height: 300px; }
 .heading_block { text-align: center; font-weight: 700; font-size: 36px; padding: 20px 0px; }
 .eggs_list { }
-.egg { width: 220px; float: left; text-align: center; background: url(../img/egg_cicle.png) no-repeat; height: 220px; margin: 10px; overflow: hidden; border-radius: 190px; }
+.egg { width: 220px; background: url(../img/egg_cicle.png) no-repeat; height: 220px; overflow: hidden; border-radius: 190px; }
 .number_egg { font-size: 60px; color: #4272b3; font-weight: 700; padding-top: 60px; margin-bottom: -5px; }
 .desc_egg {
     font-size: 14px;
@@ -79,12 +77,11 @@
 .blue_pattern { background: url(../img/blue_bg.jpg) no-repeat center center; }
 .blue_pattern2 { background: url(../img/blue_bg2.jpg) no-repeat center center; }
 .leedform { padding: 40px 0px; }
-.leedform_left { color: #fff; text-shadow: 0 1px rgba(0, 0, 0, .5); width: 540px; float: left; }
+.leedform_left { color: #fff; text-shadow: 0 1px rgba(0, 0, 0, .5); width: 540px; }
 .margintop10 { margin-top: 10px; }
 .margintop20 { margin-top: 20px; }
 .margintop30 { margin-top: 30px; }
 .margintop90 { margin-top: 90px; }
-.marginleft90 { margin-left: 90px; }
 
 .leddform_heading { font-size: 40px; font-weight: 700; }
 .leddform_heading > p { }
@@ -100,8 +97,6 @@
     padding-top: 10px;
     text-align: center; }
 .leddform_desc2 > p { }
-.arrow_b { margin-left: 450px; margin-top: -8px; }
-.leedform_form { float: right; }
 .big27 { font-size: 27px; }
 .big27 > p { }
 .little14 { font-size: 14px; }
@@ -127,11 +122,9 @@
 .why_wrap { background: url(../img/why_we_bg.jpg) no-repeat center top; background-size: cover; }
 .why { color: #000; padding-bottom: 40px; }
 .ico_wrap {border-radius: 100px !important;
-    float: left;
     height: 70px;
     width: 60px; }
-.why_list { margin-left: 70px; }
-.why_punkt { overflow: hidden; padding: 10px 0px; }
+.why_punkt { overflow: hidden;}
 
 /*.why_punkt p {
 	float: left;
@@ -142,9 +135,7 @@
 }*/
 .why_punkt p {  font-size: 20px;
     font-weight: bold;
-    margin-left: 20px;
-    padding-left: 100px;
-    padding-top: 25px; }
+}
 .why_img_st { }
 .podbor_wrap { }
 .podbor { padding-bottom: 40px; }
@@ -289,10 +280,18 @@
 .leddform_desc {
     color: white;
 }
-
+.leddform_heading2> p {
+    color: white;
+}
+.leddform_desc2> p {
+    color: white;
+}
 
 @media all and (max-width:767px) {
 	.arrow-aim { 
+        display: none;
+     }
+    .phone_arr { 
         display: none;
      }
 }
