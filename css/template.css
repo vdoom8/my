@@ -96,7 +96,6 @@
     padding-right: 40px;
     padding-top: 10px;
     text-align: center; }
-.leddform_desc2 > p { }
 .big27 { font-size: 27px; }
 .big27 > p { }
 .little14 { font-size: 14px; }
@@ -285,6 +284,10 @@
 }
 .leddform_desc2> p {
     color: white;
+}
+.row {
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 @media all and (max-width:767px) {
