@@ -96,6 +96,7 @@
     padding-right: 40px;
     padding-top: 10px;
     text-align: center; }
+.leddform_desc2 > p { }
 .big27 { font-size: 27px; }
 .big27 > p { }
 .little14 { font-size: 14px; }
@@ -171,9 +172,8 @@
 .reviews_wrap { }
 .reviews { }
 .reviewes_list { padding-top: 40px; }
-.reviews_col { width: 460px; float: left; margin: 0px 10px; }
 .rcol_1 { }
-.review { border: 2px solid #dddddd; border-radius: 5px; padding: 20px; width: 416px; margin: 10px 0px 40px 0px; }
+.review { border: 2px solid #dddddd; border-radius: 5px; padding: 20px; margin: 10px 0px 40px 0px; }
 .rew_ico_st { position: absolute; display: block; margin-left: 190px; margin-top: -45px; }
 .rev_text { overflow: hidden; }
 .rev_heading { font-size: 24px; font-weight: 700; padding-top: 10px; }
@@ -297,4 +297,10 @@
     .phone_arr { 
         display: none;
      }
+     { 
+        display: none;
+     }
+     .heading_block {
+         padding: 0px;
+     } 
 }
