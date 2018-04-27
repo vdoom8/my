@@ -300,6 +300,9 @@
         display: none;
      }
      .heading_block {
-         padding: 0px;
+        padding: 0px;
      } 
+     .number_egg {
+        font-size: 50px;
+     }
 }
