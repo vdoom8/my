@@ -63,10 +63,12 @@
 .yellow_style { -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; background-color: #ffcc03; -webkit-box-shadow: 0 4px 5px rgba(129, 82, 63, .42), inset 0 0 0 1px #ffee31; -moz-box-shadow: 0 4px 5px rgba(129, 82, 63, .42), inset 0 0 0 1px #ffee31; box-shadow: 0 4px 5px rgba(129, 82, 63, .42), inset 0 0 0 1px #ffee31; border: solid 1px #fc930b; background-image: -webkit-linear-gradient(bottom, #ffa500, rgba(255, 165, 0, 0)); background-image: -moz-linear-gradient(bottom, #ffa500, rgba(255, 165, 0, 0)); background-image: -o-linear-gradient(bottom, #ffa500, rgba(255, 165, 0, 0)); background-image: linear-gradient(to top, #ffa500, rgba(255, 165, 0, 0)); color: #483800; text-shadow: 0 1px rgba(255, 255, 255, .75); font-weight: 700; font-family: exo; }
 .size_1 { font-size: 25px; width: 260px; height: 60px; margin-top: 5px; cursor: pointer; }
 .size_1 > span { }
-.heading_block { text-align: center; font-weight: 700; font-size: 36px; padding: 20px 0px; }
+.eggs_wrap { padding-bottom: 40px; }
+.eggs { overflow: inherit; }
+.heading_block { font-weight: 700; font-size: 36px; padding: 20px 0px; }
 .eggs_list { }
-.egg { width: 220px; background: url(../img/egg_cicle.png) no-repeat; height: 220px; overflow: hidden; border-radius: 190px; }
-.number_egg { font-size: 60px; color: #4272b3; font-weight: 700; padding-top: 60px; margin-bottom: -5px; }
+.egg { width: 220px; float: left; text-align: center; background: url(../img/egg_cicle.png) no-repeat; height: 220px; margin: 10px; overflow: hidden; border-radius: 190px; }
+.number_egg { font-size: 60px; color: #4272b3; font-weight: 700; padding-top: 40px; margin-bottom: -5px; }
 .desc_egg {
     font-size: 14px;
     font-weight: bold;
@@ -295,9 +297,6 @@
         display: none;
      }
     .phone_arr { 
-        display: none;
-     }
-     { 
         display: none;
      }
      .heading_block {
