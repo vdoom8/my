@@ -236,6 +236,12 @@
     .navbar-nav {
         text-align: center;
     }
+    .address {
+        color: #60cee7;
+    }
+    .tel {
+        color: #ffff22;
+    }
     .nav-img {
         padding-right: 5px;
     }
@@ -260,6 +266,12 @@
 }
 
 @media screen and (min-device-width: 767px) and (max-device-width: 1920px) { 
+    .navbar-custom {
+        background-color: #0061ec;
+    }
+    .nav-link {
+        color: #FFFFFF;
+    }
     .nav-img {
         padding-right: 5px;
     }
@@ -268,6 +280,12 @@
     }
     .navbar-brand {
         display: none;
+    }
+    .tel {
+        color: #ffff22;
+    }
+    .address {
+        color: #60cee7;
     }
     .eggs_wrap { padding-bottom: 40px; }
     .eggs { overflow: inherit; }
