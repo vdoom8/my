@@ -230,7 +230,13 @@
 }
 
 @media all and (max-width:767px) {
-	.arrow-aim { 
+    .navbar-nav {
+        text-align: center;
+    }
+    .nav-img {
+        padding-right: 5px;
+    }
+    .arrow-aim { 
         display: none;
      }
     .phone_arr { 
@@ -248,6 +254,12 @@
 }
 
 @media screen and (min-device-width: 767px) and (max-device-width: 1920px) { 
+    .nav-img {
+        padding-right: 5px;
+    }
+    .nav-item {
+        padding-left: 20px;
+    }
     .eggs_wrap { padding-bottom: 40px; }
     .eggs { overflow: inherit; }
     .heading_block { font-weight: 700; font-size: 36px; padding: 20px 0px; }
