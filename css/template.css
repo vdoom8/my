@@ -41,8 +41,6 @@
 .form_style { width: 260px; padding: 20px; text-align: center; background: #fff; border-radius: 4px; border: 4px solid #ffb100; }
 .form_style2 { width: 350px; padding: 45px 0 60px 10px; text-align: center; background: rgba(0, 0, 0, 0) url("../img/form2.png") no-repeat scroll center 0; border-radius: 4px; border: 0px solid #ffb100; }
 .form_style3 { width: 260px; padding: 9px 20px 18px 20px; text-align: center; background: rgba(255, 255, 255, 0.8) none repeat scroll 0 0; border-radius: 4px; border: 4px solid #ffb100; }
-.form_heading { /*padding-bottom: 10px; */}
-.form_big_h { /*padding-bottom: 10px;*/ }
 .big30 { font-size: 30px; }
 .little15 { font-size: 15px; }
 .input_style_1 { width: 240px; height: 40px; margin: 15px 0px; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; background-color: #fff; border: solid 1px #aaa; padding: 0px 10px; font-family: exo; font-size: 16px; color: #474747; }
@@ -62,25 +60,19 @@
 .leddform_heading2 { font-size: 40px; font-weight: 700; text-align: center; background: #0541bb none repeat scroll 0 0;
     border-radius: 14px;}
 .leddform_desc { font-size: 16px; padding-top: 20px; font-weight: 300; }
-.leddform_desc > p { }
 .leddform_desc2 { font-size: 17px;
     font-weight: normal;
     padding-left: 40px;
     padding-right: 40px;
     padding-top: 10px;
     text-align: center; }
-.leddform_desc2 > p { }
 .big27 { font-size: 27px; }
 .little14 { font-size: 14px; }
-.little14 > p { }
-.hot_tour_img { }
-.tour_desc { }
 .tour_name { font-size: 18px;
     font-weight: 700;
     padding: 5px 0;
     text-align: center;
     text-transform: uppercase; }
-.tour_name > p { }
 .tour_price { font-size: 12px;
     font-weight: 700;
     padding: 5px 0;
@@ -88,10 +80,8 @@
     text-transform: uppercase;
 } 
 
-.tour_price > p { }
 .size_2 { font-size: 18px; width: 100%; height: 40px; cursor: pointer; margin-top: 10px; }
 .review .size_2 { width: 200px; }
-.size_2 > span { }
 .why_wrap { background: url(../img/why_we_bg.jpg) no-repeat center top; background-size: cover; }
 .why { color: #000; padding-bottom: 40px; }
 .ico_wrap {border-radius: 100px !important;
@@ -109,8 +99,6 @@
 .why_punkt p {  font-size: 20px;
     font-weight: bold;
 }
-.why_img_st { }
-.podbor_wrap { }
 .podbor { padding-bottom: 40px; }
 .podbor_over { width: 460px; background: #ecf5fe; border-radius: 4px; border: 1px solid #d9dfe4; margin: 10px auto; }
 .pod_line { overflow: hidden; padding: 20px; border-bottom: 1px solid #d9dfe4; border-top: 1px solid #fff; }
@@ -118,67 +106,44 @@
 .podbor_over .pod_line:last-child { border-bottom: none; }
 .pod_step { height: 25px; background: url(../img/step_number_bg.png) no-repeat; text-align: center; width: 40px; color: #fff; font-weight: 700; font-size: 18px; padding: 9px 0px; float: left; margin-right: 20px; }
 .pod_znach { overflow: hidden; float: left; }
-.pod_select_wrap { }
 .pod_select_label { font-weight: 700; padding-bottom: 5px; padding-bottom: 10px; padding-top: 5px; }
 .inputs { overflow: hidden; }
 .select_long_wrap { width: 220px; border: 1px solid #bdc4cb; border-radius: 4px; overflow: hidden; }
 .select { height: 40px; border: none; font-family: exo; font-size: 16px; color: #474747; padding-left: 10px; background-repeat: no-repeat; background-position: 180px; }
 .select_long { width: 240px; }
-.select_long > option { }
 .date_long_wrap { width: 220px; border: 1px solid #BDC4CB; border-radius: 4px; overflow: hidden; }
 .date_style { background-image: url(../img/date_select_ico.png); }
-.date_long_wrap img { }
 .select_small_wrap { border: 1px solid #BDC4CB; border-radius: 4px; overflow: hidden; width: 90px; display: inline-block; float: left; }
 .select_small { background-repeat: no-repeat; background-position: 50px; width: 120px; display: inline; }
-.select_small > option { }
 .def_input { display: block; height: 20px; float: left; padding-top: 10px; padding-left: 10px; padding-right: 10px; }
 .last_def_input { padding-left: 0px; }
 .size_3 { width: 300px; height: 60px; font-size: 25px; cursor: pointer; }
 .align-centr { text-align: center; }
-.size_3 > span { }
 .timer_js { border: 1px solid #65a2f7; border-radius: 4px; padding: 10px; width: 390px; margin-top: 20px; }
 .timer_label { font-size: 20px; padding-bottom: 10px; }
 .big23 { font-size: 23px; }
 .margintop50 { margin-top: 10px; }
 .arrow_b_2 { position: absolute; margin-left: 540px; margin-top: -140px; }
-.big23 > p { }
-.reviews_wrap { }
-.reviews { }
 .reviewes_list { padding-top: 40px; }
-.rcol_1 { }
 .review { border: 2px solid #dddddd; border-radius: 5px; padding: 20px; margin: 10px 0px 40px 0px; }
 .rew_ico_st { position: absolute; display: block; margin-left: 190px; margin-top: -45px; }
 .rev_text { overflow: hidden; }
 .rev_heading { font-size: 24px; font-weight: 700; padding-top: 10px; }
-.rev_heading > p { }
 .rev_user_text { padding-top: 10px; }
-.rev_user_text > p { }
 .user_info { overflow: hidden; }
 .user_info > img { display: block; border-radius: 100px; float: right; margin-top: -40px; }
 .user_name { float: left; font-size: 18px; font-weight: 700; border-bottom: 1px solid #c6c6c6; padding-bottom: 10px; width: 90%; margin-top: 30px; }
-.rcol_2 { }
 .our_partners_wrap { padding-bottom: 40px; }
-.our_partners { }
-.our_part_img { }
-.leed_form_phone { }
 .phone_number_leed { font-size: 33px; font-weight: 700; color: #fff; text-align: center; padding-bottom: 10px; margin-top: 0px; }
-.leedcall { }
 .arrow_b_3 { margin-left: 540px; position: relative; top: -30px; }
-.margintop20 { }
-.phone_number_leed > p { }
 .where_wrap { height: 460px; }
-.where { }
 .where > img { margin-left: 240px; margin-top: 30px; float: left; }
-.footer_wrap { }
 .footer { font-size: 14px; padding: 20px 0px; }
 .footer_left { float: left; }
 .footer_left  a { color: #67a4da; }
 .footer_center { text-align: center; }
 .footer_center  a { color: #67a4da; }
-.footer_left > p { }
-.footer_left > p > a { }
 .footer_rigth { float: right; }
-.footer_rigth > p { }
 .footer_rigth > p > a { color: #67a4da; }
 .scroll-link { position: absolute; margin-top: -35px; }
 .ierror { border: 1px solid #F00; color: #F00; }
@@ -285,7 +250,6 @@
     .eggs_wrap { padding-bottom: 40px; }
     .eggs { overflow: inherit; }
     .heading_block { font-weight: 700; font-size: 36px; padding: 20px 0px; }
-    .eggs_list { }
     .egg { width: 220px; float: left; text-align: center; background: url(../img/egg_cicle.png) no-repeat; height: 220px; margin: 10px; overflow: hidden; border-radius: 190px; }
     .number_egg { font-size: 60px; color: #4272b3; font-weight: 700; padding-top: 40px; margin-bottom: -5px; }
     .desc_egg {
