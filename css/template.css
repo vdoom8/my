@@ -230,6 +230,9 @@
 }
 
 @media all and (max-width:767px) {
+    .navbar-custom {
+        background-color: #0061ec;
+    }
     .navbar-nav {
         text-align: center;
     }
