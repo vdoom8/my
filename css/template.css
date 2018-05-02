@@ -260,6 +260,9 @@
     .nav-item {
         padding-left: 20px;
     }
+    .navbar-brand {
+        display: none;
+    }
     .eggs_wrap { padding-bottom: 40px; }
     .eggs { overflow: inherit; }
     .heading_block { font-weight: 700; font-size: 36px; padding: 20px 0px; }
