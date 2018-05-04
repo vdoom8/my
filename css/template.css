@@ -260,7 +260,7 @@
     .desc_heading { 
         font-size: 15px; 
         padding-top: 60px;
-        color: rgb(4, 6, 117);
+        color: white;
     }
     .heading_top1 {
         color: white;
@@ -371,4 +371,27 @@
     .col-6 {
         padding: 5px;
     }
+}
+
+a {
+    line-height: 1;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:after {
+    display: block;
+    content: "";
+    height: 2px;
+    width: 0%;
+    background-color: white;
+    transition: width .3s ease-in-out;
+}
+
+a:hover:after,
+a:focus:after {
+    width: 100%;
+    color: #D1C131;
 }

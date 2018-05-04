@@ -72,19 +72,19 @@
           </ul>
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#hot-tours">Гарячі Тури <span class="sr-only">(current)</span></a>
+              <a class="nav-link" data-value="hot_tours" href="#">Гарячі Тури</a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="#why-we">Чому ми</a>
+              <a class="nav-link" data-value="why" href="#">Чому ми</a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link" href="tour-selection">Підбір туру</a>
+                <a class="nav-link" data-value="podbor" href="#">Підбір туру</a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link" href="#reviews">Відгуки</a>
+                <a class="nav-link" data-value="reviews" href="#reviews">Відгуки</a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link" href="#contacts">Контакти</a>
+                <a class="nav-link" data-value="contacts" href="#contacts">Контакти</a>
             </li>
           </ul>
         </div>
@@ -142,8 +142,7 @@
 	
 	<!--header_end-->
 <!--hot_tours-->
-	<a name="hot-tours" class="scroll-link"></a>
-	<div class="hot_tours_wrap profits">
+	<div class="hot_tours_wrap profits" id="hot_tours">
 		<div class="hot_tours">
 			<h3 class="heading_block col-12 text-center">Гарячі Тури </h3>
 			<div class="hot_tours_list animatedParent" data-sequence="500">
@@ -350,8 +349,7 @@
 	<!--eggs_end-->
 
 	<!--why-->
-<a name="why-we" class="scroll-link"></a>
-<div class="why_wrap">
+<div class="why_wrap" id="why">
 	<div class="why row">
 		<div class="col-12">
 			<h1 class="heading_block text-center">Чому саме ми</h1>
@@ -405,8 +403,7 @@
 <!--why_end-->
 
 	<!--podbor-->
-	<a name="tour-selection" class="scroll-link"></a>
-	<div class="podbor_wrap">
+	<div class="podbor_wrap" id="podbor">
 		<div class="podbor block_960 profits scroll-animate animate">
 			<h1 class="heading_block text-center">Підбір туру</h1>
 			<div class="podbor_over">
@@ -621,9 +618,7 @@
 	
 
 	<!--reviews-->
-	<a name="reviews" class="scroll-link"></a>
-
-	<div class="reviews_wrap profits scroll-animate">
+	<div class="reviews_wrap profits scroll-animate" id="reviews">
 		<div class="reviews">
 			<h1 class="heading_block text-center">Відгуки наших клієнтів</h1>
 			<div class="reviewes_list">
@@ -766,7 +761,7 @@
 	<!--leedform_end-->
 
 	<!--where-->
-	<div class="where_wrap">
+	<div class="where_wrap" id="contacts">
 		<div class="where profits scroll-animate">
 			<h1 class="heading_block anim text-center">Контакти</h1>
 			<div class="row text-center">
@@ -908,5 +903,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <script type="text/javascript" src="js/css3-animate-it.js"></script> 
+<script type="text/javascript" src="js/scroll.js"></script>
 </body>
 </html>
