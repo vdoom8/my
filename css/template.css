@@ -16,7 +16,6 @@
 .logo_text { float: left; padding-left: 10px; }
 .discript { font-size: 16px; letter-spacing: 1.3px; }
 .company_name { font-size: 33px; line-height: 1; }
-.bold { font-weight: 700; }
 .phone_wrap { float: right; text-align: right; padding-top: 20px; }
 .phone_wrap a, .phone_wrap a[x-apple-data-detectors], .phone_number_leed a, .phone_number_leed a[x-apple-data-detectors] { color: inherit !important; text-decoration: none !important; font-size: inherit !important; font-family: inherit !important; font-weight: inherit !important; line-height: inherit !important; }
 .phone_number { font-size: 24px; }
@@ -31,7 +30,6 @@
     padding: 0 15px 7px;
     text-transform: uppercase; }
 .heading_block { font-weight: 700; font-size: 36px; padding: 20px 0px; }
-.desc_heading { font-size: 35px; padding-top: 20px;padding-top: 20px; }
 /*.header_left { float: left; position: relative; top: 100px; }*/
 .header_left {  top: -95px; left: 70px; display: inline-block; text-align: right; }
 /*.header_arrow { margin-left: 540px; }*/
@@ -224,6 +222,9 @@
     margin-left: 0px;
     margin-right: 0px;
 }
+.jumbotron {
+    background-image: url("../img/1697.jpg");
+    background-size: cover;}
 
 @media all and (max-width:767px) {
     .navbar-custom {
@@ -247,12 +248,30 @@
     .phone_arr { 
         display: none;
      }
+    .jumbotron {
+        height: 400px;
+    }
      .heading_block {
         padding: 0px;
      } 
-     .header_wrap {
-         height: 638px;
-     }
+     .bold { 
+        font-weight: 700; 
+    }
+    .desc_heading { 
+        font-size: 15px; 
+        padding-top: 60px;
+        color: rgb(4, 6, 117);
+    }
+    .heading_top1 {
+        color: white;
+        font-size: 30px;
+    }
+    .heading_top2 {   
+        color: rgb(3, 33, 99);
+        font-size: 20px;
+        text-transform: uppercase; 
+        margin-top: 60px;
+    }
      .form_style2 {
        display: none;
      }
@@ -278,6 +297,27 @@
 }
 
 @media screen and (min-device-width: 767px) and (max-device-width: 1920px) { 
+    .bold { 
+        font-weight: 700; 
+    }
+    .heading_top10 {
+        position: relative;
+        z-index: 1;
+        top: -40px;
+    }
+    .desc_heading { 
+        font-size: 35px; 
+        padding-top: 20px;
+        color: white;
+    }
+    .heading_top1 {
+        color: white;
+        font-size: 50px;
+    }
+    .heading_top2 {   
+        color: white;
+        font-size: 30px;
+        text-transform: uppercase; }
     .navbar-custom {
         background-color: #0061ec;
     }
@@ -304,7 +344,7 @@
     }
     .form_style2 { 
         width: 350px; 
-        padding: 45px 0 60px 10px; 
+        padding: 45px 0 60px 0; 
         text-align: center; 
         background: rgba(0, 0, 0, 0) url("../img/form2.png") no-repeat scroll center 0; 
         border-radius: 4px; 
