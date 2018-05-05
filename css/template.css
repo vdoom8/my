@@ -82,9 +82,6 @@
 .review .size_2 { width: 200px; }
 .why_wrap { background: url(../img/why_we_bg.jpg) no-repeat center top; background-size: cover; }
 .why { color: #000; padding-bottom: 40px; }
-.ico_wrap {border-radius: 100px !important;
-    height: 70px;
-    width: 60px; }
 .why_punkt { overflow: hidden;}
 
 /*.why_punkt p {
@@ -294,6 +291,9 @@
         font-weight: bold;
         margin: auto;
     } 
+    .why_punkt> p {
+        font-size: 15px;
+    }
 }
 
 @media screen and (min-device-width: 767px) and (max-device-width: 1920px) { 
@@ -370,6 +370,22 @@
      }
     .col-6 {
         padding: 5px;
+    }
+    .contacts {
+        padding-top: 130px;
+    }
+    .comp_name_cont> p, .comp_adr_cont> p, .comp_phone_cont> p {
+        font-size: 20px;
+    }
+    .leddform_heading {
+        font-size: 40px;
+    }
+    .whyr {
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    .why_punkt> p {
+        padding-left: 15px;
     }
 }
 
