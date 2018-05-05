@@ -222,9 +222,7 @@
     margin-left: 0px;
     margin-right: 0px;
 }
-.jumbotron {
-    background-image: url("../img/1697.jpg");
-    background-size: cover;}
+
 
 @media all and (max-width:767px) {
     .navbar-custom {
@@ -267,7 +265,7 @@
         font-size: 30px;
     }
     .heading_top2 {   
-        color: rgb(3, 33, 99);
+        color: white;
         font-size: 20px;
         text-transform: uppercase; 
         margin-top: 60px;
@@ -297,9 +295,17 @@
     .why_punkt> p {
         font-size: 15px;
     }
+    .jumbotron {
+        background-image: url("../img/partners/1.jpg");
+        background-size: cover;
+    }
 }
 
 @media screen and (min-device-width: 767px) and (max-device-width: 1920px) { 
+    .jumbotron {
+        background-image: url("../img/1697.jpg");
+        background-size: cover;
+    }
     .bold { 
         font-weight: 700; 
     }
