@@ -37,8 +37,6 @@
 .header_wrap iframe { display: inline-block; }
 .fancybox-inner .form_style { border: none; }
 .form_style { width: 260px; padding: 20px; text-align: center; background: #fff; border-radius: 4px; border: 4px solid #ffb100; }
-
-.form_style3 { width: 300px; padding: 20px; text-align: center; background: rgba(255, 255, 255, 0.8); border-radius: 4px; border: 4px solid #ffb100; }
 .big30 { font-size: 30px; }
 .little15 { font-size: 15px; }
 .input_style_1 { width: 240px; height: 40px;  -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; background-color: #fff; border: solid 1px #aaa; padding: 0px 10px; font-family: exo; font-size: 16px; color: #474747; }
@@ -47,7 +45,7 @@
 .size_1 { font-size: 25px; width: 260px; height: 60px; margin-top: 5px; cursor: pointer; }
 .blue_pattern { background: url(../img/blue_bg.jpg) no-repeat center center; }
 
-.leedform { padding: 40px 0px; }
+
 
 .margintop10 { margin-top: 10px; }
 .margintop20 { margin-top: 20px; }
@@ -55,15 +53,7 @@
 .margintop90 { margin-top: 90px; }
 
 .leddform_heading { font-size: 40px; font-weight: 700; }
-.leddform_heading2 { font-size: 40px; font-weight: 700; text-align: center; background: #0541bb none repeat scroll 0 0;
-    border-radius: 14px;}
 .leddform_desc { font-size: 16px; padding-top: 20px; font-weight: 300; }
-.leddform_desc2 { font-size: 17px;
-    font-weight: normal;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 10px;
-    text-align: center; }
 .big27 { font-size: 27px; }
 .little14 { font-size: 14px; }
 .tour_name { font-size: 18px;
@@ -128,7 +118,11 @@
 .user_info { overflow: hidden; }
 .user_info > img { display: block; border-radius: 100px; float: right; margin-top: -40px; }
 .user_name { float: left; font-size: 18px; font-weight: 700; border-bottom: 1px solid #c6c6c6; padding-bottom: 10px; width: 90%; margin-top: 30px; }
-.our_partners_wrap { padding-bottom: 40px; }
+.our_partners_wrap {
+    padding-bottom: 40px;
+    max-width: 960px;
+    margin: 0 auto;
+}
 .phone_number_leed { font-size: 33px; font-weight: 700; color: #fff; text-align: center; padding-bottom: 10px; margin-top: 0px; }
 .arrow_b_3 { margin-left: 540px; position: relative; top: -30px; }
 .where_wrap { height: 460px; }
@@ -219,7 +213,24 @@
     margin-left: 0px;
     margin-right: 0px;
 }
-
+.leedform_head {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.eggs_wrap { 
+    padding-bottom: 40px; 
+    max-width: 960px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.imput_date {
+    width: 220px;
+    height: 40px;
+}
+.partners_img {
+    height: 40px;
+}
 
 @media all and (max-width:767px) {
     .navbar-custom {
@@ -270,6 +281,10 @@
      .form_style2 {
        display: none;
      }
+     .form_style2 {
+         margin-left: auto;
+         margin-right: auto;
+     }
      .number_egg {
         font-size: 40px;
      }
@@ -300,6 +315,28 @@
         background-image: url("../img/partners/2.jpg");
         background-size: cover;
     }
+    .form_style3 { 
+        padding: 20px; 
+        text-align: center; 
+        background: rgba(255, 255, 255, 0.8); 
+        border-radius: 4px; 
+        border: 4px solid #ffb100; 
+    }
+    .leddform_heading2 { 
+        font-size: 30px; 
+        font-weight: 700; 
+        text-align: center; 
+    }
+    .leddform_desc2 { font-size: 20px;
+        font-weight: normal;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        text-align: center; 
+    }
+    .leedform { 
+        padding-top: 100px;
+        padding-bottom: 50px;  
+    }
 }
 
 @media screen and (min-device-width: 767px) and (max-device-width: 1920px) { 
@@ -307,12 +344,36 @@
         background-image: url("../img/1697.jpg");
         background-size: cover;
     }
+    .leedform { 
+        padding-top: 100px;
+        padding-bottom: 50px;  
+    }
+    .leddform_heading2 { 
+        font-size: 40px; 
+        font-weight: 700; 
+        text-align: center; 
+        background: #0541bb;
+        border-radius: 14px;
+    }
+    .leddform_desc2 { font-size: 17px;
+        font-weight: normal;
+        padding-top: 20px;
+        text-align: center; 
+    }
     .blue_pattern2 {
         background-image: url("../img/blue_bg2.jpg");
         background-size: cover;
     }
     .bold { 
         font-weight: 700; 
+    }
+    .form_style3 { 
+        width: 300px; 
+        padding: 20px; 
+        text-align: center; 
+        background: rgba(255, 255, 255, 0.8); 
+        border-radius: 4px; 
+        border: 4px solid #ffb100; 
     }
     .heading_top10 {
         position: relative;
@@ -364,9 +425,11 @@
         border-radius: 4px; 
         border: 0px solid #ffb100; 
     }
-    .eggs_wrap { padding-bottom: 40px; }
+    
     .eggs { overflow: inherit; }
-    .heading_block { font-weight: 700; font-size: 36px; padding: 20px 0px; }
+    .heading_block { font-weight: 700; font-size: 36px;
+        padding-bottom: 50px;    
+    }
     .egg { width: 220px; float: left; text-align: center; background: url(../img/egg_cicle.png) no-repeat; height: 220px; margin: 10px; overflow: hidden; border-radius: 190px; }
     .number_egg { font-size: 60px; color: #4272b3; font-weight: 700; padding-top: 40px; margin-bottom: -5px; }
     .desc_egg {
