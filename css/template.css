@@ -281,13 +281,14 @@
         color: white;
     }
     .heading_top1 {
-        color: white;
+        color: rgb(255, 255, 255);
         font-size: 30px;
+        text-shadow: 3px 3px 4px #000000;
     }
     .heading_top2 {   
         color: white;
         font-size: 20px;
-        text-transform: uppercase; 
+        text-shadow: 3px 3px 4px #000000;
         margin-top: 60px;
     }
      .form_style2 {
@@ -320,7 +321,7 @@
         font-size: 15px;
     }
     .jumbotron {
-        background-image: url("../img/partners/183875.jpg");
+        background-image: url("../img/partners/12.png");
         background-size: cover;
     }
     .blue_pattern2 {
@@ -409,15 +410,19 @@
         font-size: 35px; 
         padding-top: 20px;
         color: white;
+        text-shadow: 2px 2px 4px #000000;
     }
     .heading_top1 {
         color: white;
         font-size: 50px;
+        text-shadow: 3px 3px 4px #000000;
     }
     .heading_top2 {   
         color: white;
         font-size: 30px;
-        text-transform: uppercase; }
+        text-transform: uppercase;
+        text-shadow: 2px 2px 4px #000000;
+     }
     .navbar-custom {
         background-color: #0061ec;
     }
@@ -517,3 +522,7 @@ a:focus:after {
     width: 100%;
     color: #D1C131;
 }
+
+.heading_block {
+    text-shadow: 2px 2px 4px #6d725ebe;
+} 
