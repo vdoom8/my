@@ -236,7 +236,13 @@
 .why_list {
     padding-bottom: 40px;
 }
-
+.selectionTour {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.our_partners_heading {
+    padding-bottom: 60px;
+}
 @media all and (max-width:767px) {
     .navbar-custom {
         background-color: #0061ec;
