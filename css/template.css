@@ -29,7 +29,7 @@
     margin-left: 65px;
     padding: 0 15px 7px;
     text-transform: uppercase; }
-.heading_block { font-weight: 700; font-size: 36px; padding: 20px 0px; }
+.heading_block { font-weight: 700; font-size: 36px; }
 /*.header_left { float: left; position: relative; top: 100px; }*/
 .header_left {  top: -95px; left: 70px; display: inline-block; text-align: right; }
 /*.header_arrow { margin-left: 540px; }*/
@@ -71,7 +71,7 @@
 .size_2 { font-size: 18px; width: 100%; height: 40px; cursor: pointer; margin-top: 10px; }
 .review .size_2 { width: 200px; }
 .why_wrap { background: url(../img/why_we_bg.jpg) no-repeat center top; background-size: cover; }
-.why { color: #000; padding-bottom: 40px; }
+.why { color: #000; padding-top: 40px; margin-bottom: 20px; }
 .why_punkt { overflow: hidden;}
 
 /*.why_punkt p {
@@ -186,6 +186,8 @@
 .hot_tours {
     max-width: 960px;
     margin: 0 auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
 }
 .hot_tours> .row {
     margin: 0 auto;
@@ -230,6 +232,9 @@
 }
 .partners_img {
     height: 40px;
+}
+.why_list {
+    padding-bottom: 40px;
 }
 
 @media all and (max-width:767px) {
