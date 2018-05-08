@@ -243,6 +243,7 @@
 .our_partners_heading {
     padding-bottom: 60px;
 }
+
 @media all and (max-width:767px) {
     .navbar-custom {
         background-color: #0061ec;
