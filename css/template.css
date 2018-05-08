@@ -344,9 +344,19 @@
         padding-bottom: 20px;
         text-align: center; 
     }
+    .leddform_desc { font-size: 20px;
+        font-weight: normal;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        text-align: center; 
+    }
     .leedform { 
-        padding-top: 100px;
+        padding-top: 50px;
         padding-bottom: 50px;  
+    }
+    .contacts_head {
+        padding-top: 40px;
+        padding-bottom: 40px;
     }
 }
 
@@ -474,6 +484,10 @@
     }
     .why_punkt> p {
         padding-left: 15px;
+    }
+    .contacts_head {
+        padding-top: 40px;
+        padding-bottom: 40px;
     }
 }
 
