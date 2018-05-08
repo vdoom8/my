@@ -320,7 +320,7 @@
         font-size: 15px;
     }
     .jumbotron {
-        background-image: url("../img/partners/1.jpg");
+        background-image: url("../img/partners/183875.jpg");
         background-size: cover;
     }
     .blue_pattern2 {
@@ -366,7 +366,7 @@
 
 @media screen and (min-device-width: 767px) and (max-device-width: 1920px) { 
     .jumbotron {
-        background-image: url("../img/1697.jpg");
+        background-image: url("../img/partners/183875.jpg");
         background-size: cover;
     }
     .leedform { 
