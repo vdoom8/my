@@ -358,6 +358,9 @@
         padding-top: 40px;
         padding-bottom: 40px;
     }
+    .leedform_head {
+        padding-top: 30px;
+    }
 }
 
 @media screen and (min-device-width: 767px) and (max-device-width: 1920px) { 
