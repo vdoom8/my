@@ -243,18 +243,7 @@
 .our_partners_heading {
     padding-bottom: 60px;
 }
-@media all and (max-width:415px) {
-    .jumbotron {
-        background-image: url("../img/partners/23.png");
-        background-size: cover;
-    }
-}
-@media screen and (min-device-width: 416px) and (max-device-width: 767px) { 
-.jumbotron {
-    background-image: url("../img/partners/12.png");
-    background-size: cover;
-}
-}
+
 @media all and (max-width:767px) {
     .navbar-custom {
         background-color: #0061ec;
@@ -331,7 +320,10 @@
     .why_punkt> p {
         font-size: 15px;
     }
-    
+    .jumbotron {
+        background-image: url("../img/partners/12.png");
+        background-size: cover;
+    }
     .blue_pattern2 {
         background-image: url("../img/partners/2.jpg");
         background-size: cover;
