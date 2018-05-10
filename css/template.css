@@ -74,13 +74,7 @@
 .why { color: #000; padding-top: 40px; margin-bottom: 20px; }
 .why_punkt { overflow: hidden;}
 
-/*.why_punkt p {
-	float: left;
-	padding-left: 10px;
-	padding-top: 20px;
-	font-size: 20px;
-	font-weight: bold;
-}*/
+
 .why_punkt p {  font-size: 20px;
     font-weight: bold;
 }
@@ -244,7 +238,7 @@
     padding-bottom: 60px;
 }
 
-@media all and (max-width:767px) {
+@media all and (max-width:410px) {
     .navbar-custom {
         background-color: #0061ec;
     }
@@ -311,6 +305,232 @@
         padding: 5px; 
         border: 1px solid #B5B5B5;
      }
+     .card-body {
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 10px;
+        padding-bottom: 10px;
+     }
+     .tour_name { font-size: 14px;
+        font-weight: 700;
+        padding-top: 0;
+        padding-bottom: 0;
+        text-align: center;
+        text-transform: uppercase; }
+    .tour_price { font-size: 11px;
+        font-weight: 700;
+        padding-top: 5px;
+        padding-bottom: 0;
+        text-align: center;
+        text-transform: uppercase;
+    } 
+    .price {
+        color:#e3331f;
+        font-size:15px;
+        font-weight:bold;
+    }
+    .input_style_1 { 
+        width: auto;
+        height: 40px;
+        -webkit-border-radius: 4px; 
+        -moz-border-radius: 4px; 
+        border-radius: 4px; 
+        background-color: #fff; 
+        border: solid 1px #aaa; 
+        padding: 0px 10px; 
+        font-family: exo; 
+        font-size: 16px; 
+        color: #474747; 
+    }
+    .size_1 {
+        font-size: 25px;
+        width: auto;
+        height: 40px;
+        margin-top: 5px;
+        cursor: pointer;
+    }
+
+     .maps {
+        padding: 0px;
+    }
+    .eggs_wrap {
+        max-width: 320px;
+    }
+    .egg {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .number_egg {
+        font-size: 30px;
+        color: #4272b3;
+        font-weight: 700;
+        padding-top: 15px;
+        padding-bottom: 5px;
+        margin-bottom: -5px;
+    }
+    .desc_egg {
+        font-size: 11px;
+        font-weight: bold;
+        margin: auto;
+    } 
+    .why_punkt> p {
+        font-size: 15px;
+    }
+    .podbor_over { 
+        width: auto;
+        background: #ecf5fe; 
+        border-radius: 4px; 
+        border: 1px solid #d9dfe4; 
+        margin: 10px auto; 
+    }
+    .pod_line {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .select_small_wrap {
+        width: 50px;
+    }
+    .size_3 {
+        width: 240px;
+        height: 50px;
+        font-size: 25px;
+        cursor: pointer;
+    }
+    .user {
+        width: 50px;
+        text-align: left;
+    }
+    .user_info > img {
+    margin-left: 15px;
+    }
+    .jumbotron {
+        background-image: url("../img/partners/183875-01.jpeg");
+        background-size: cover;
+    }
+    .blue_pattern2 {
+        background-image: url("../img/partners/2.jpg");
+        background-size: cover;
+    }
+    .form_style3 { 
+        padding: 20px; 
+        text-align: center; 
+        background: rgba(255, 255, 255, 0.8); 
+        border-radius: 4px; 
+        border: 4px solid #ffb100; 
+    }
+    .leddform_heading2 { 
+        font-size: 30px; 
+        font-weight: 700; 
+        text-align: center; 
+    }
+    .leddform_desc2 { font-size: 20px;
+        font-weight: normal;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        text-align: center; 
+    }
+    .leddform_desc { font-size: 20px;
+        font-weight: normal;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        text-align: center; 
+    }
+    .leedform { 
+        padding-top: 50px;
+        padding-bottom: 50px;  
+    }
+    .contacts_head {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .leedform_head {
+        padding-top: 30px;
+    }
+}
+
+@media screen and (min-device-width: 410px) and (max-device-width: 767px) { 
+    .navbar-custom {
+        background-color: #0061ec;
+    }
+    .navbar-nav {
+        text-align: center;
+    }
+    .address {
+        color: #60cee7;
+    }
+    .tel {
+        color: #ffff22;
+    }
+    .nav-img {
+        padding-right: 5px;
+    }
+    .arrow-aim { 
+        display: none;
+     }
+    .phone_arr { 
+        display: none;
+     }
+    .jumbotron {
+        height: 400px;
+    }
+     .heading_block {
+        padding: 0px;
+     } 
+     .bold { 
+        font-weight: 700; 
+    }    
+    .desc_heading {  display: none;}
+    .heading_top1 { display: none;}
+    .heading_top2 { display: none;}
+       /* font-size: 15px; 
+        padding-top: 60px;
+        color: rgb(197, 250, 4);
+        text-shadow: 3px 3px 4px #000000;
+    }
+    .heading_top1 {
+        color: rgb(255, 255, 255);
+        font-size: 30px;
+        text-shadow: 3px 3px 4px #000000;
+    }
+    .heading_top2 {   
+        color: white;
+        font-size: 20px;
+        text-shadow: 3px 3px 4px #000000;
+        margin-top: 60px;
+    }*/
+     .form_style2 {
+       display: none;
+     }
+     .form_style2 {
+         margin-left: auto;
+         margin-right: auto;
+     }
+     .number_egg {
+        font-size: 40px;
+     }
+     .card {
+         border: 0px;
+     }
+     .hotTourCard {
+        padding: 5px; 
+        border: 1px solid #B5B5B5;
+     }
+     .tour_name { font-size: 15px;
+        font-weight: 700;
+        padding: 5px 0;
+        text-align: center;
+        text-transform: uppercase; }
+    .tour_price { font-size: 11px;
+        font-weight: 700;
+        padding: 5px 0;
+        text-align: center;
+        text-transform: uppercase;
+    } 
+    .price {
+        color:#e3331f;
+        font-size:20px;
+        font-weight:bold;
+    }
      .maps {
         padding: 0px;
     }
