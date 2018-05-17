@@ -454,7 +454,7 @@
     .leedform_head {
         padding-top: 30px;
     }
-    .size_3 { width: 240px; height: 50px; font-size: 24px; }
+    .size_4 { width: 240px; height: 50px; font-size: 24px; }
 }
 
 @media screen and (min-device-width: 410px) and (max-device-width: 767px) { 
