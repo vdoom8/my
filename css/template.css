@@ -691,7 +691,7 @@
     .heading_block { font-weight: 700; font-size: 36px;
         padding-bottom: 50px;    
     }
-    .egg { width: 220px; float: left; text-align: center; background: url(../img/egg_cicle.png) no-repeat; height: 220px; margin: 10px; overflow: hidden; border-radius: 190px; }
+    .egg { width: 220px; text-align: center; overflow: hidden; }
     .number_egg { font-size: 60px; color: #4272b3; font-weight: 700; padding-top: 40px; margin-bottom: -5px; }
     .desc_egg {
         font-size: 14px;
