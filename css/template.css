@@ -123,7 +123,6 @@
 
 .scroll-link { position: absolute; margin-top: -35px; }
 .ierror { border: 1px solid #F00; color: #F00; }
-
 .footer {
     background: #061D25;
     padding: 10px 0;
@@ -140,6 +139,11 @@
   }
   .footer a:hover {
     color: white;
+  }
+  .foterText {
+    color: #70726F;
+    font-size: 20px;
+    text-align: center;    
   }
 /* modal
 -----------------------------------------------------------------------------*/
@@ -749,7 +753,7 @@
         width: 240px;
     }
     .size_4> span {
-        font-size: 20px;
+        font-size: 20px
     }
 }
 
@@ -779,11 +783,3 @@ a:focus:after {
 .heading_block {
     text-shadow: 2px 2px 4px #6d725ebe;
 } 
-.where {
-    margin-bottom: 50px;
-}
-.foterText {
-    text-align: center;
-    color: #70726F;
-    font-size: 14px;
-}
