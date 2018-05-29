@@ -1,5 +1,7 @@
-
-.anim { transition: all 1s ease; opacity: 0.01; transform: scale(0.5, 0.5); }
+body {
+    padding-top: 50px;
+  }
+  .anim { transition: all 1s ease; opacity: 0.01; transform: scale(0.5, 0.5); }
 .anim-r { transition: all 1s ease; opacity: 0.01; transform: rotate(0deg); margin-left: 100%; }
 .block_960 { max-width: 960px; margin-left: auto; margin-right: auto; overflow: hidden; }
 .center { text-align: center; }
@@ -621,7 +623,7 @@
     }
 }
 
-@media screen and (min-device-width: 767px) and (max-device-width: 1920px) { 
+@media (min-width: 1200px) {
     .jumbotron {
         background-image: url("../img/partners/183875.jpg");
         background-size: cover;
@@ -634,13 +636,17 @@
         font-size: 40px; 
         font-weight: 700; 
         text-align: center; 
-        background: #0541bb;
+        background: rgba(20, 75, 75, 0.5);
         border-radius: 14px;
     }
-    .leddform_desc2 { font-size: 17px;
+    .leddform_desc2 { 
+        font-size: 17px;
         font-weight: normal;
         padding-top: 20px;
+        background: rgba(20, 75, 75, 0.5);
         text-align: center; 
+        border-radius: 14px;
+        padding-bottom: 10px;
     }
     .blue_pattern2 {
         background-image: url("../img/blue_bg2.jpg");
@@ -679,7 +685,7 @@
         text-transform: uppercase;
         text-shadow: 2px 2px 4px #000000;
      }
-    .navbar-custom {
+    .navbar {
         background-color: #0061ec;
     }
     .nav-link {
@@ -715,12 +721,16 @@
         border: 0px solid #ffb100; 
     }
     
+    .big27 {
+        color: #483800;
+    }
+    .egg { width: 220px; text-align: center; background: url(../img/egg_cicle.png) no-repeat; height: 220px; overflow: hidden; border-radius: 190px; }
+
     .eggs { overflow: inherit; }
     .heading_block { font-weight: 700; font-size: 36px;
         padding-bottom: 50px;    
     }
-    .egg { width: 220px; text-align: center; overflow: hidden; }
-    .number_egg { font-size: 60px; color: #4272b3; font-weight: 700; padding-top: 40px; margin-bottom: -5px; }
+    .number_egg { font-size: 60px; color: #4272b3; font-weight: 700; padding-top: 50px; margin-bottom: -15px; }
     .desc_egg {
         font-size: 14px;
         font-weight: bold;
@@ -737,6 +747,16 @@
     .col-6 {
         padding: 5px;
     }
+    .img-fluid {
+        max-width: 100%;
+        height: auto;
+    }
+    .arrow-aim {
+        margin-top: 50px;
+    }
+    .awhy_punkt p {
+        padding-top: 15px;
+    }
     .contacts {
         padding-top: 130px;
     }
@@ -752,6 +772,7 @@
     }
     .why_punkt> p {
         padding-left: 15px;
+        padding-top: 15px;
     }
     .contacts_head {
         padding-top: 40px;
@@ -766,6 +787,9 @@
     }
     .tbForm_CallMe {
         position:fixed; right: 60px; bottom: 30px;
+    }
+    footer p {
+        color: #dddddd;
     }
 }
 
@@ -795,3 +819,22 @@ a:focus:after {
 .heading_block {
     text-shadow: 2px 2px 4px #6d725ebe;
 } 
+
+.jumbotron .heading_top1 {
+        color: white;
+        font-size: 50px;
+        text-shadow: 3px 3px 4px #000000;
+    }
+.jumbotron h4 {
+    color: #DEFFFF;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.navbar {
+    transition: top 0.5s;
+}
+
+.navbar.expand {
+    background: rgba(20, 75, 75, 0.5); 
+}
